@@ -11,7 +11,7 @@ pipeline {
     environment {
         REPO_URL = 'https://github.com/pinkWar123/ci-cd.git'
         BRANCH_NAME = "${params.BRANCH_NAME}"
-        IMAGE_NAME = 'ntquan87/nodejs-app-ci-cd'
+        IMAGE_NAME = 'ntquan87/22127345-nodejs-app-ci-cd'
     }
 
 
