@@ -67,7 +67,7 @@ pipeline {
         //             sh "helm upgrade --install --namespace=test-${LATEST_COMMIT}  --create-namespace jenkins-${LATEST_COMMIT} -f $helmValues $helmChart --set image.repository=${IMAGE_NAME} --set image.tag=${LATEST_COMMIT}"
         //         }
         //     }
-        }
+        // }
     }
 
     // post {
